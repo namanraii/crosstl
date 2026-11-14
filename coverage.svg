@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="706" viewBox="0 0 780 706" role="img" aria-labelledby="title desc">
+<title id="title">CrossTL coverage per language and direction</title>
+<desc id="desc">CUDA output 98.7 %; CUDA input 96.1 %; GLSL output 96.7 %; GLSL input 99.2 %; HIP output 98.2 %; HIP input 94.8 %; HLSL output 97.4 %; HLSL input 94.1 %; Metal output 92.1 %; Metal input 91.1 %; Mojo output 0.0 %; Mojo input 0.0 %; OpenCL C output not offered; OpenCL C input 52.7 %; Rust output 0.0 %; Rust input 0.0 %; Slang output 82.5 %; Slang input 73.7 %; SPIR-V output 96.4 %; SPIR-V input 95.1 %; WebGL output 99.7 %; WebGL input not offered; WGSL output 85.3 %; WGSL input not offered; CrossGL IR 89.2 %</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;font-size:13px}
+.bg{fill:#ffffff;stroke:#d0d7de}.t{fill:#1f2328}.m{fill:#59636e}.rule{stroke:#d0d7de}.track{fill:#eff2f5}
+.output{fill:#0969da}.input{fill:#8250df}.ir{fill:#1a7f37}
+@media (prefers-color-scheme:dark){.bg{fill:#0d1117;stroke:#3d444d}.t{fill:#f0f6fc}.m{fill:#9198a1}.rule{stroke:#3d444d}.track{fill:#262c36}.output{fill:#4493f8}.input{fill:#ab7df8}.ir{fill:#3fb950}}</style>
+<rect x="0.5" y="0.5" width="779" height="705" rx="6" class="bg"/>
+<text x="20" y="30" class="t">CrossTL coverage</text>
+<text x="760" y="30" class="m" text-anchor="end">4597d48 · 2026-11-14</text>
+<text x="20" y="58" class="t">CUDA</text>
+<text x="100" y="58" class="m">output</text>
+<rect x="190" y="48" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="48" width="335.6" height="12" rx="2" class="output"/>
+<text x="540" y="58" class="t">98.7 %</text>
+<text x="600" y="58" class="m">661 of 670</text>
+<text x="100" y="82" class="m">input</text>
+<rect x="190" y="72" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="72" width="326.7" height="12" rx="2" class="input"/>
+<text x="540" y="82" class="t">96.1 %</text>
+<text x="600" y="82" class="m">644 of 670</text>
+<text x="20" y="106" class="t">GLSL</text>
+<text x="100" y="106" class="m">output</text>
+<rect x="190" y="96" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="96" width="328.8" height="12" rx="2" class="output"/>
+<text x="540" y="106" class="t">96.7 %</text>
+<text x="600" y="106" class="m">505 of 522</text>
+<text x="100" y="130" class="m">input</text>
+<rect x="190" y="120" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="120" width="337.3" height="12" rx="2" class="input"/>
+<text x="540" y="130" class="t">99.2 %</text>
+<text x="600" y="130" class="m">518 of 522</text>
+<text x="20" y="154" class="t">HIP</text>
+<text x="100" y="154" class="m">output</text>
+<rect x="190" y="144" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="144" width="333.9" height="12" rx="2" class="output"/>
+<text x="540" y="154" class="t">98.2 %</text>
+<text x="600" y="154" class="m">544 of 554</text>
+<text x="100" y="178" class="m">input</text>
+<rect x="190" y="168" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="168" width="322.3" height="12" rx="2" class="input"/>
+<text x="540" y="178" class="t">94.8 %</text>
+<text x="600" y="178" class="m">525 of 554</text>
+<text x="20" y="202" class="t">HLSL</text>
+<text x="100" y="202" class="m">output</text>
+<rect x="190" y="192" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="192" width="331.2" height="12" rx="2" class="output"/>
+<text x="540" y="202" class="t">97.4 %</text>
+<text x="600" y="202" class="m">797 of 818, 11 untested</text>
+<text x="100" y="226" class="m">input</text>
+<rect x="190" y="216" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="216" width="319.9" height="12" rx="2" class="input"/>
+<text x="540" y="226" class="t">94.1 %</text>
+<text x="600" y="226" class="m">770 of 818, 11 untested</text>
+<text x="20" y="250" class="t">Metal</text>
+<text x="100" y="250" class="m">output</text>
+<rect x="190" y="240" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="240" width="313.1" height="12" rx="2" class="output"/>
+<text x="540" y="250" class="t">92.1 %</text>
+<text x="600" y="250" class="m">498 of 541</text>
+<text x="100" y="274" class="m">input</text>
+<rect x="190" y="264" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="264" width="309.7" height="12" rx="2" class="input"/>
+<text x="540" y="274" class="t">91.1 %</text>
+<text x="600" y="274" class="m">493 of 541</text>
+<text x="20" y="298" class="t">Mojo</text>
+<text x="100" y="298" class="m">output</text>
+<rect x="190" y="288" width="340" height="12" rx="2" class="track"/>
+<text x="540" y="298" class="t">0.0 %</text>
+<text x="600" y="298" class="m">0 of 267</text>
+<text x="100" y="322" class="m">input</text>
+<rect x="190" y="312" width="340" height="12" rx="2" class="track"/>
+<text x="540" y="322" class="t">0.0 %</text>
+<text x="600" y="322" class="m">0 of 267</text>
+<text x="20" y="346" class="t">OpenCL C</text>
+<text x="100" y="346" class="m">output</text>
+<text x="190" y="346" class="m">not offered: CrossTL has no OpenCL C generator</text>
+<text x="100" y="370" class="m">input</text>
+<rect x="190" y="360" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="360" width="179.2" height="12" rx="2" class="input"/>
+<text x="540" y="370" class="t">52.7 %</text>
+<text x="600" y="370" class="m">363 of 689</text>
+<text x="20" y="394" class="t">Rust</text>
+<text x="100" y="394" class="m">output</text>
+<rect x="190" y="384" width="340" height="12" rx="2" class="track"/>
+<text x="540" y="394" class="t">0.0 %</text>
+<text x="600" y="394" class="m">0 of 630, 3 untested</text>
+<text x="100" y="418" class="m">input</text>
+<rect x="190" y="408" width="340" height="12" rx="2" class="track"/>
+<text x="540" y="418" class="t">0.0 %</text>
+<text x="600" y="418" class="m">0 of 629, 4 untested</text>
+<text x="20" y="442" class="t">Slang</text>
+<text x="100" y="442" class="m">output</text>
+<rect x="190" y="432" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="432" width="280.5" height="12" rx="2" class="output"/>
+<text x="540" y="442" class="t">82.5 %</text>
+<text x="600" y="442" class="m">570 of 691, 13 untested</text>
+<text x="100" y="466" class="m">input</text>
+<rect x="190" y="456" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="456" width="250.6" height="12" rx="2" class="input"/>
+<text x="540" y="466" class="t">73.7 %</text>
+<text x="600" y="466" class="m">509 of 691, 13 untested</text>
+<text x="20" y="490" class="t">SPIR-V</text>
+<text x="100" y="490" class="m">output</text>
+<rect x="190" y="480" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="480" width="327.8" height="12" rx="2" class="output"/>
+<text x="540" y="490" class="t">96.4 %</text>
+<text x="600" y="490" class="m">505 of 524, 3 untested</text>
+<text x="100" y="514" class="m">input</text>
+<rect x="190" y="504" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="504" width="323.3" height="12" rx="2" class="input"/>
+<text x="540" y="514" class="t">95.1 %</text>
+<text x="600" y="514" class="m">500 of 526, 1 untested</text>
+<text x="20" y="538" class="t">WebGL</text>
+<text x="100" y="538" class="m">output</text>
+<rect x="190" y="528" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="528" width="339" height="12" rx="2" class="output"/>
+<text x="540" y="538" class="t">99.7 %</text>
+<text x="600" y="538" class="m">297 of 298</text>
+<text x="100" y="562" class="m">input</text>
+<text x="190" y="562" class="m">not offered: CrossTL has no WebGL source frontend</text>
+<text x="20" y="586" class="t">WGSL</text>
+<text x="100" y="586" class="m">output</text>
+<rect x="190" y="576" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="576" width="290" height="12" rx="2" class="output"/>
+<text x="540" y="586" class="t">85.3 %</text>
+<text x="600" y="586" class="m">343 of 402, 1 untested</text>
+<text x="100" y="610" class="m">input</text>
+<text x="190" y="610" class="m">not offered: CrossTL has no WGSL source frontend</text>
+<line x1="20" y1="622" x2="760" y2="622" class="rule"/>
+<text x="20" y="648" class="t">CrossGL IR</text>
+<text x="100" y="648" class="m">expressive</text>
+<rect x="190" y="638" width="340" height="12" rx="2" class="track"/>
+<rect x="190" y="638" width="303.3" height="12" rx="2" class="ir"/>
+<text x="540" y="648" class="t">89.2 %</text>
+<text x="600" y="648" class="m">1336 of 1497, 24 untested</text>
+<text x="20" y="692" class="m">Score = supported / (supported + refused + wrong), per generated probe validated by the reference tool.</text>
+</svg>
